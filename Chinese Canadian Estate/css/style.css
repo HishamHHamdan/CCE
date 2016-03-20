@@ -518,11 +518,10 @@ p {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
   height: 100%;
   width: 100%;
-  display: block;
+  display: inline-block;
+  transition: background-image 2s linear;
 }
 .wrap-hero-content{
   width: 100%;
@@ -1016,7 +1015,7 @@ ul.portfolio-image li .desc{
   position: absolute;
   pointer-events: none;
   left: 5px;
-  top: 10px;
+  top: -50px;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -1274,4 +1273,9 @@ ul.portfolio-image li .desc{
 .col-md-66
 {
   width: 30%;
+}
+
+#areaRange, #budgetRange
+{
+  margin-top: 10px;
 }
